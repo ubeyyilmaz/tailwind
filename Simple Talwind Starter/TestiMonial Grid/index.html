@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Testimoinal Grid</title>
+    <style>
+        .large-img:hover {
+            width: 100px;
+            height: 100px;
+            transition: transform 0.3s ease ;
+            animation-delay: 0.2ms;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-200">
+    <!-- Global Div  -->
+    <div class="container mx-auto max-w-7xl p-2 md:p-10">
+
+        <!-- Grid Div -->
+        <div class=" grid gap-6 grid-cols-1 text-white md:grid-cols-4 md:grid-rows-2">
+            <!-- Card 1  -->
+            <div class="relative p-10 rounded-xl bg-purple-700 md:col-span-2">
+
+
+                <!-- Card Header -->
+                <div class="flex z-10 space-x-4 img">
+
+                    <img src="https://i.pinimg.com/736x/c3/d3/39/c3d3394f9f4fbc9f5b830818f8b0b069.jpg" alt=""
+                        class="w-10 h-10 rounded-full ring-2 ring-purple-300 large-img">
+                    <div class="text-sm">
+                        <h4 class="opacity-90">Kuzey Işık</h4>
+                        <p class="opacity-50 overlay">Aşçı</p>
+                    </div>
+                </div>
+
+                <!-- Büyük Yazı -->
+                <p class="relative z-10 mt-6 text-xl">
+                    I received a job offer mid-course, and the subjects I learned were
+                    current, if not more so, in the company I joined. I honestly feel I
+                    got every penny's worth.
+                </p>
+
+                <!-- Küçük yazı -->
+                <p class="mt-6 opacity-50 line-clamp-6 text-sm">
+                    <!--   Line-clamp-6  paragrafı sadece 6 satır göstermesi için var -->
+                    "I was an EMT for many years before I joined the bootcamp. I've been
+                    looking to make a transition and have heard some people who had an
+                    amazing experience here. I signed up for the free intro course and
+                    found it incredibly fun! I enrolled shortly thereafter. The next 12
+                    weeks was the best - and most grueling - time of my life. Since
+                    completing the course, I've successfully switched careers, working
+                    as a Software Engineer at a VR startup. Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Ratione vero repudiandae, quasi atque
+                    officiis eum consectetur odio amet dolorem deleniti repellat
+                    expedita aut sunt laudantium cum itaque nam voluptatum quod! Quo
+                    totam sequi omnis deserunt? Sit nam molestiae excepturi,
+                    perspiciatis labore deleniti eum, eligendi quisquam quod sed nobis
+                    exercitationem tempora! "
+                </p>
+            </div>
+            <!-- Card 2 -->
+            <div class="p-10 bg-gray-500 rounded-xl">
+                <!-- Card Header -->
+                <div class="flex z-10 space-x-4">
+                    <img class="w-10 h-10 rounded-full ring-2 ring-purple-300 large-img"
+                        src="https://i.pinimg.com/736x/bd/83/d4/bd83d485c913def466c2e9a2bc43140d.jpg" alt="">
+                    <div class="text-sm">
+                        <h4 class="opacity-90">Başarısız Profil</h4>
+                        <p class="opacity-50">İşsiz</p>
+                    </div>
+                </div>
+                <!-- Puntolu Yazı  -->
+                <p class="relative z-10 mt-6 text-xl">
+                    The team was very supportive and kept me motivated
+                </p>
+                <!-- Küçük Yazı -->
+                <p class="relative z-10 mt-6 opacity-50 text-sm ">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, velit dignissimos aliquid totam
+                    labore vero blanditiis rem est id ullam eveniet at possimus
+
+                </p>
+            </div>
+            <!-- Card 3 -->
+            <div class=" p-10 rounded-xl bg-purple-200 text-gray-900 bg-white md:block md:row-span-2">
+                <!-- Card Header  -->
+                <div class="flex z-10 space-x-4">
+                    <img class="w-10 h-10 rounded-full ring-2 ring-purple-300 large-img"
+                        src="https://st3.myideasoft.com/shop/mr/95/myassets/products/881/dijital-vitrin-erkek-63.jpg?revision=1648126125"
+                        alt="">
+                    <div class="text-sm">
+                        <h4 class="opacity-90">Bilinmeyen Kişi</h4>
+                        <p class="opacity-50">Lorem ıpsum dolor</p>
+                    </div>
+                </div>
+                <!-- Büyük yazı -->
+                <p class="mt-6 text-xl">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, aspernatur?
+                </p>
+                <!-- Küçük yazı -->
+                <p class="mt-6 opacity-50 text-sm">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio aspernatur adipisci nemo cumque
+                    reprehenderit similique quaerat quia quisquam magni eos? Inventore nihil quia qui, accusamus
+                    officiis quaerat unde id quisquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                    dignissimos recusandae suscipit possimus repellat ad tempore. Nemo, magnam tempora quos pariatur
+                    esse dicta quisquam beatae velit commodi. Delectus, minus at!
+
+                </p>
+            </div>
+            <!-- Card 4 -->
+            <div class="p-2 rounded-xl text-gray-900 bg-purple-200">
+                <!-- Card Header -->
+                <div class="flex z-10 space-x-4 p-8 ">
+                    <img class="w-10 h-10 rounded-full ring-2 ring-purple-300 large-img  "
+                        src="https://st1.myideasoft.com/shop/mr/95/myassets/products/798/dijital-vitrin-bay-doktor-8.jpg?revision=1648115808"
+                        alt="">
+                    <div class="text-sm">
+                        <h4 class="opacity-90">Murtaza Güçlü</h4>
+                        <p class="opacity-50">Doktor</p>
+                    </div>
+                </div>
+                <!-- Büyük Yazı  -->
+                <p class="p-2 text-xl">
+                    Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <!-- Küçük Yazı -->
+                <p class="p-2 text-sm opacity-50">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt vitae tempore voluptate? Lorem
+                    ipsum dolor sit amet consectetur, adipisicing elit. Placeat nihil aperiam, pariatur dolore autem
+                    dolores! Fuga minus perferendis in at libero?
+                </p>
+
+            </div>
+            <!-- Card 5 -->
+            <div class=" p-10 bg-gray-900 rounded-xl md:col-span-2">
+                <!-- Card Hearder -->
+                <div class="flex z-10 space-x-4">
+                    <img class="w-10 h-10 rounded-full ring-2 ring-purple-300 large-img"
+                        src="https://st3.myideasoft.com/idea/cf/26/myassets/products/805/dijital-vitrin-bay-ogretmen-02.jpg?revision=1631193403"
+                        alt="">
+                    <div class="text-sm">
+                        <h4 class="opacity-90">Cengiz Başkan</h4>
+                        <p class="opacity-50">Öğretmen</p>
+                    </div>
+                </div>
+                <!-- Büyük Yazı -->
+                <p class="p-2 text-xl">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, id tempore.lorem4 Lorem ipsum dolor
+                    sit amet consectetur. Lorem, ipsum.
+                </p>
+                <!-- Küçük yazı -->
+                <p class="opacity-50 text-sm p-2">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint a sunt adipisci aliquam consequatur
+                    natus repellendus perspiciatis rem. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Facilis corporis cumque, consectetur sequi suscipit provident temporibus quia dolores!
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>

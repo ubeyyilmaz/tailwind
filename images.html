@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>İmages</title>
+</head>
+
+<body>
+    <div class="flex items-center justify-center min-h-screen bg-cyan-50">
+        <!-- Card Div'i -->
+        <div class="bg-white p-6 m-3 space-y-10 shadow-2xl rounded-3xl md:p-40">
+            <!-- Menu Container -->
+            <div
+                class="flex flex-col items-center justify-center space-y-3 md:flex-row md:space-y-0 md:space-x-8 md:mb-24 md:justify-end">
+                <!-- Menu Elemanları -->
+                <div class="group">
+                    <a href="https://www.beyazperde.com/galerileri/filmler/">Galeri</a>
+                    <div class="mx-2 mt-2  border-b-2  border-black "></div>
+                </div>
+                <div class="group">
+                    <a href="#">Hakkında</a>
+                    <div class="mx-2 mt-2 border-b-2 -0 border-black "></div>
+                </div>
+                <div class="group">
+                    <a href="#">İletişim</a>
+                    <div class="mx-2 mt-2  border-b-2 -0 border-black "></div>
+                </div>
+                <div class="group">
+                    <a href="#">Referanslar</a>
+                    <div class="mx-2 mt-2 border-b-2 border-black "></div>
+                </div>
+            </div>
+
+            <!-- Arama Div'i -->
+            <div class="flex flex-col justify-between space-y-5 md:flex-row md:space-y-0">
+                <!-- Input ve Buton alan Div'i-->
+                <div class="flex justify-between border-b">
+                    <input type="text" class="ml-6 border-none md:w-80 placeholder:font-thin focus:outline-none"
+                        placeholder="Ara">
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-8 text-gray-300 duration-200 hover:scale-110"
+                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <circle cx="10" cy="10" r="7"></circle>
+                            <line x1="21" y1="21" x2="15" y2="15"></line>
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Yükleme Buttonu -->
+                <button
+                    class="bg-zinc-900 text-white py-2 px-4 mt-2 rounded-3xl font-mono font-8xl">
+                    Upload
+                </button>
+            </div>
+
+            <!-- Galeri Div'i -->
+            <div class="grid gap-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+                <!-- Image 1 -->
+                <div class="relative group">
+                    <img src="https://pchocasi.com.tr/wp-content/uploads/2021/02/Google-gorsel-arama-2.jpg" alt="" class="w-72">
+                    <div
+                        class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40">
+                        <div class="flex justify-between w-full">
+                            <div class="">
+                                <p class="text-sm">Abstract Painting</p>
+                                <p class="text-xs">245 likes - 35 Shares</p>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="https://www.mentalup.net/img/blog/gorsel-zeka-testi.jpg" alt="bookmark">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image 2 -->
+                <div class="relative group">
+                    <img src="https://images.ctfassets.net/hrltx12pl8hq/GjdgAxyI2eo6kr0xgvZFX/5b7ca56695b5acc2b2757eaf2ddec7a3/water-splash-clr-shutterstock_258421805.jpg?fit=fill&w=480&h=270" alt="" class="w-72">
+                    <div
+                        class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40">
+                        <div class="flex justify-between w-full">
+                            <div class="font-normal">
+                                <p class="text-sm">Abstract Painting</p>
+                                <p class="text-xs">245 likes - 35 Shares</p>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="https://www.mentalup.net/img/blog/gorsel-zeka-testi.jpg" alt="bookmark">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image 3 -->
+                <div class="relative group">
+                    <img src="https://www.sudokuanaokulu.com.tr/resimler/images/resim.jpg" alt="" class="w-72">
+                    <div
+                        class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40">
+                        <div class="flex justify-between w-full">
+                            <div class="font-normal">
+                                <p class="text-sm">Abstract Painting</p>
+                                <p class="text-xs">245 likes - 35 Shares</p>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="https://www.mentalup.net/img/blog/gorsel-zeka-testi.jpg" alt="bookmark">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image 4 -->
+                <div class="relative group">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJf0vHy9gohFU-Ocs2ylYzFhIKUdPgzixVWATHm4pQ0UMR5R7Ma8CmLQovYeQbqBHiOzU&usqp=CAU" alt="" class="w-72">
+                    <div
+                        class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40">
+                        <div class="flex justify-between w-full">
+                            <div class="font-normal">
+                                <p class="text-sm">Abstract Painting</p>
+                                <p class="text-xs">245 likes - 35 Shares</p>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="https://www.mentalup.net/img/blog/gorsel-zeka-testi.jpg" alt="bookmark">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image 5 -->
+                <div class="relative group">
+                    <img src="https://images.ctfassets.net/hrltx12pl8hq/38IOQ8uJCwgRI7WxHk52k8/e49205e80d0c2631377ada4b00ed730a/Artboard_7.jpg?fit=fill&w=480&h=270" alt="" class="w-72">
+                    <div
+                        class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40">
+                        <div class="flex justify-between w-full">
+                            <div class="font-normal">
+                                <p class="text-sm">Abstract Painting</p>
+                                <p class="text-xs">245 likes - 35 Shares</p>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="https://www.mentalup.net/img/blog/gorsel-zeka-testi.jpg" alt="bookmark">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image 6 -->
+                <div class="relative group">
+                    <img src="images/image6.jpg" alt="" class="w-72">
+                    <div
+                        class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 ">
+                        <div class="flex justify-between w-full">
+                            <div class="font-normal">
+                                <p class="text-sm">Abstract Painting</p>
+                                <p class="text-xs">245 likes - 35 Shares</p>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="https://www.mentalup.net/img/blog/gorsel-zeka-testi.jpg" alt="bookmark">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
